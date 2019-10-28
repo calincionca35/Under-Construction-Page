@@ -1,5 +1,10 @@
+//Helper Function
+var $ = function(id) {
+    return document.getElementById(id);
+};
+
 //set countdown date
-var countDownDate = new Date("Nov 20, 2019 14:49:01").getTime();
+var countDownDate = new Date("Nov 20, 2020 00:00:00").getTime();
 
 //update countdown every second
 var countdown = setInterval(function() {
@@ -30,3 +35,6 @@ var countdown = setInterval(function() {
         document.getElementById("wrapper").style.fontSize = "2.25em";
     }
 }, 1000);
+
+//Footer Copyright Year
+$("copyRightYear").innerHTML = new Date().getFullYear();
