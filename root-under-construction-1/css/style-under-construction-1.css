@@ -11,14 +11,14 @@ body {
     height: 100vh;
 }
 
-body, #wrapper, main, article, .num, nav {
+body, #wrapper, main, article, .num, nav, footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
 
 #wrapper {
-    margin: auto;
+    margin: 35vh auto 0;
 }
 
 #wrapper, main, .num {
@@ -74,6 +74,21 @@ a:hover {
 
 #seconds {
     color: #f00;
+}
+
+footer {
+    color: #fff;
+    margin-bottom: 30px;
+    -webkit-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+footer p {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
 }
 
 @media only screen and (min-width: 600px) {
