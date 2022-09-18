@@ -4,7 +4,7 @@ var $ = function(id) {
 };
 
 //set countdown date
-var countDownDate = new Date("Nov 20, 2021 00:00:00").getTime();
+var countDownDate = new Date("Jan 1, 2024 00:00:00").getTime();
 
 //update countdown every second
 var countdown = setInterval(function() {
